@@ -1,6 +1,8 @@
  $color-primary:#55c57a;
  $color-primary-light: #7ed56f;
  $color-primary-dark:#28b485;
+ $color-grey-dark:#777;
+ $color-white:#fff;
  /*   box-sizing: border-box;  hace que no se tomen en cuenta los bordes en el calculo de ancho y alto*/
  /*reseteo los valores para todos los browsers */
  
@@ -15,7 +17,7 @@
      font-weight: 400;
      font-size: 16px;
      line-height: 1.7;
-     color: #777;
+     color: $color-grey-dark;
      padding: 30px;
  }
  
@@ -51,7 +53,8 @@ para que tome como referencia para calcular desde donde parte */
  /* le asigno backface-visibility: hidden; porque en la animacion el main text hace un efecto raro al final, se "acomoda" */
  
  .heading-primary {
-     color: white;
+     color: $color-white;
+     ;
      text-transform: uppercase;
      backface-visibility: hidden;
  }
@@ -118,8 +121,8 @@ para que tome como referencia para calcular desde donde parte */
  }
  
  .btn--white {
-     background-color: white;
-     color: #777;
+     background-color: $color-white;
+     color: $color-grey-dark;
  }
  /* si el elemento se tiene que mover en un estado especial, uso translate */
  
@@ -147,7 +150,7 @@ para que tome como referencia para calcular desde donde parte */
  }
  
  .btn--white::after {
-     background-color: white;
+     background-color: $color-white;
  }
  
  .btn:hover::after {
