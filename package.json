@@ -9,7 +9,11 @@
     "devDependencies": {},
     "scripts": {
         "compile:sass": "node-sass sass/main.scss css/style.css -w",
-        "compile:sassproduccion": "node-sass sass/main.scss css/style.css"
+ 
+        "build:sass": "node-sass sass/main.scss css/style.css "
+ 
+      
+ 
     },
     "repository": {
         "type": "git",
