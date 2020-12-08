@@ -1,0 +1,27 @@
+// relacionado a layout, elementos que se repiten en las diferentes paginas
+.header {
+    height: 95vh;
+    background-image: linear-gradient( to right bottom, rgba($color-primary-light, 0.7), rgba($color-primary-dark, 0.7)), url('../img/hero.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon( 0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+    /* el elemento padre es header, por eso le asigno position: relative, 
+para que tome como referencia para calcular desde donde parte */
+    &__logo-box {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+    &__logo {
+        height: 35px;
+    }
+    /* para centrar los textos + boton respecto del elemento padre  */
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
