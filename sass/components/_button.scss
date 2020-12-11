@@ -16,6 +16,13 @@
             background-color: $color-white;
         }
     }
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        &::after {
+            background-color: $color-primary;
+        }
+    }
     /* si el elemento se tiene que mover en un estado especial, uso translate */
     &:hover {
         transform: translateY(-3px);
