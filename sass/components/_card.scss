@@ -1,6 +1,6 @@
 .card {
 
-    // FUNCTIONALITY
+    // FUNCIONALIDAD
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
@@ -50,7 +50,7 @@
     }
 
 
-    // FRONT SIDE STYLING
+    // FRENTE CARD 
     &__picture {
         background-size: cover;
         height: 23rem;
@@ -133,7 +133,7 @@
         }
     }
 
-    // FRONT SIDE STYLING
+    // FRENTE CARD
     &__cta {
         position: absolute;
         top: 50%;
@@ -192,7 +192,7 @@
             padding: 1rem 3rem;
         }
 
-        // FRONT SIDE STYLING
+        //  FRENTE CARD
         &__cta {
             position: relative;
             top: 0%;
